@@ -27,3 +27,8 @@ quantity=float(data[ind3+1:ind3_])
 
 
 sum_+=price*quantity
+
+
+summa={}
+summa['shipping']=0
+summa['total']=sum_
