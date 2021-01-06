@@ -32,3 +32,6 @@ sum_+=price*quantity
 summa={}
 summa['shipping']=0
 summa['total']=sum_
+
+f=open('data_json_w.json','w',encoding='utf8',errors='ignore')
+json.dump(summa,f)
